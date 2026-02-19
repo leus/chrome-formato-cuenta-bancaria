@@ -1,0 +1,28 @@
+{
+  "name": "chrome-formato-cuenta-bancaria",
+  "version": "1.0.0",
+  "description": "Chrome extension that parses and formats Chilean bank account data for transfers.",
+  "main": "background.js",
+  "scripts": {
+    "test": "node parser.test.js"
+  },
+  "keywords": [
+    "chrome-extension",
+    "chile",
+    "bank",
+    "transfer",
+    "rut",
+    "clipboard",
+    "cuenta-bancaria"
+  ],
+  "author": "leus",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leus/chrome-formato-cuenta-bancaria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leus/chrome-formato-cuenta-bancaria/issues"
+  },
+  "homepage": "https://github.com/leus/chrome-formato-cuenta-bancaria#readme"
+}

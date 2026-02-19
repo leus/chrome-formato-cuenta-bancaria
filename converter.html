@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formato Cuenta Bancaria</title>
+    <link rel="stylesheet" href="converter.css" />
+  </head>
+  <body>
+    <!-- Step 1: parsed preview -->
+    <div id="step-preview">
+      <h2>Datos detectados</h2>
+
+      <div id="no-data" class="hidden warning">
+        No se detectaron datos bancarios en el portapapeles.
+      </div>
+
+      <div id="fields-grid" class="hidden">
+        <label>Nombre Titular</label>
+        <input id="f-nombre" type="text" />
+
+        <label>RUT</label>
+        <input id="f-rut" type="text" />
+
+        <label>Banco de Destino</label>
+        <input id="f-banco" type="text" />
+
+        <label>Tipo de Cuenta</label>
+        <input id="f-tipoCuenta" type="text" />
+
+        <label>Nº de Cuenta</label>
+        <input id="f-numeroCuenta" type="text" />
+
+        <label>Email</label>
+        <input id="f-email" type="email" placeholder="Ingresa el email…" />
+      </div>
+
+      <div class="actions">
+        <button id="btn-convert" class="primary" disabled>
+          Copiar al portapapeles
+        </button>
+      </div>
+
+      <div id="success-msg" class="hidden success">
+        ✓ Copiado al portapapeles
+      </div>
+    </div>
+
+    <script src="banks.js"></script>
+    <script src="parser.js"></script>
+    <script src="converter.js"></script>
+  </body>
+</html>
