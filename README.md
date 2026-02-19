@@ -62,8 +62,10 @@ Cuenta Corriente · Cuenta Vista · Cuenta RUT · Cuenta Ahorro · Chequera Elec
 ├── parser.js            # Core parser, RUT formatter, output builder
 ├── banks.js             # SBIF bank list with aliases
 ├── parser.test.js       # 96 tests (zero dependencies)
+├── build.js             # Packages extension into .zip
 ├── package.json
 ├── LICENSE              # MIT
+├── PRIVACY.md           # Privacy policy
 └── icons/               # Extension icons
 ```
 
@@ -93,3 +95,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## License
 
 [MIT](LICENSE) © leus
+
+## Privacy
+
+This extension does not collect, store, or transmit any user data. All processing happens entirely in your browser. See the full [Privacy Policy](PRIVACY.md).
