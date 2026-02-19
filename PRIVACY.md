@@ -36,6 +36,11 @@ None. The extension is entirely self-contained.
 
 The extension does not use `localStorage`, `chrome.storage`, cookies, or any other persistence mechanism. Once the popup closes, nothing remains.
 
+## Open Source
+
+This extension is **open source** under the MIT license. You can inspect, audit, and verify every line of code yourself at:
+https://github.com/leus/chrome-formato-cuenta-bancaria
+
 ## Changes to This Policy
 
 If this policy changes, the update will be posted in this repository. Since the extension does not collect data, there is nothing to retroactively affect.
